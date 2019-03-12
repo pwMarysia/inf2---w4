@@ -1,8 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Nov 20 21:01:00 2018
 
-@author: Maria
 """
 from math import sin, cos,  atan, sqrt, degrees
 
@@ -107,4 +103,4 @@ for i in range(len(Bs)):
     h="{:.2f} m".format(Hs[i])
     c.write('|{:^50}|{:^50}|{:^50}|'.format(b,l,h)+'\n')
 c.write(154*'-'+'\n')
-c.close()
+c.close() #zamkinj
